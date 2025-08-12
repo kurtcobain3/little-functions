@@ -1,0 +1,14 @@
+# weight converter
+mass = input("mass: ")
+unit = input("Lbs or Kg: ")
+
+if unit.upper() == "L":
+    mass = float(mass) * 0.45359237
+    print(f"you are {mass}kg")
+
+elif unit.upper() == "K":
+    mass = float(mass) / 0.45359237
+    print(f"you are {mass}lbs")
+
+else:
+    print('please type eith L or K')
