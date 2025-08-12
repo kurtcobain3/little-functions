@@ -1,0 +1,3 @@
+# Capitalizing the sentence
+word = input().upper
+print(word)
