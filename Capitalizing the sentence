@@ -1,3 +1,3 @@
 # Capitalizing the sentence
-word = input().upper
+word = input("the word you need to convert: ").upper()
 print(word)
