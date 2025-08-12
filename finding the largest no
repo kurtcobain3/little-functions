@@ -1,0 +1,8 @@
+# finding the largest no. in a list
+no = [13, 25, 84, 36, 104748, 34, 4434, 24567898765, 7823, 232]
+max = no[0]
+
+for lines in no:
+    if max < lines:
+        max = lines
+print(max)
